@@ -13,7 +13,7 @@ export default function ClientMobileNav({
 }) {
   const t = useTranslations("Header.MobileNav"); // Load translations
   const pathname = usePathname();
-  const accountHref = isAuthenticated ? '/profile' : '/auth/login';
+  const accountHref = isAuthenticated ? '/protected/account' : '/auth/login';
 
   return (
     <>

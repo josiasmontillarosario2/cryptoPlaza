@@ -1,5 +1,3 @@
-import { NextLogo } from './next-logo';
-import { SupabaseLogo } from './supabase-logo';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Zap, Shield, Truck, CreditCard } from 'lucide-react';

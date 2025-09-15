@@ -11,6 +11,7 @@ import Image from "next/image";
 import { CartItem, useCart } from "@/stores/CartStore";
 import { CartSheet } from "../CartSheet";
 import { useTranslations } from "next-intl"; // Add this import
+import { useRouter } from "next/navigation";
 
 type Props = {
   isAuthenticated: boolean;
@@ -26,7 +27,8 @@ export default function ClientHeaderActions({
   const t = useTranslations("Header"); // Load translations
   const { initializeCart, isOpen, openCart, closeCart, getTotalItems } = useCart();
   const [mounted, setMounted] = useState(false);
-
+  const router = useRouter();
+  
   useEffect(() => {
     setMounted(true);
     if (isAuthenticated) {
@@ -73,6 +75,7 @@ export default function ClientHeaderActions({
             />
           ) : (
             <Button
+            onClick={()=> router.push('/protected/account')}
               variant="ghost"
               size="icon"
               className="text-gray-300 hover:text-cyan-400"

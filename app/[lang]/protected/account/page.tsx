@@ -5,12 +5,12 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
-import { getCurrentUser, getUserOrders } from '@/lib/mock-data';
+import { getCurrentUser, getUserOrders } from '@/lib/data'; // Updated import to use real Supabase queries
 import { User, Package, Settings, LogOut, ShoppingBag, Calendar, DollarSign } from 'lucide-react';
 
-export default function AccountPage() {
-  const user = getCurrentUser();
-  const orders = user ? getUserOrders(user.id) : [];
+export default async function AccountPage() {
+  const user = await getCurrentUser();
+  const orders = user ? await getUserOrders(user.id) : [];
 
   if (!user) {
     return (
@@ -35,6 +35,10 @@ export default function AccountPage() {
 
   const totalSpent = orders.reduce((sum, order) => sum + order.total, 0);
 
+  const memberSince = user.created_at ? new Date(user.created_at).toLocaleDateString('en-US', { year: 'numeric', month: 'short' }) : 'Unknown';
+
+  const initials = user.name ? user.name.split(' ').map(n => n[0]).join('') : 'U';
+
   return (
     <div className="py-8">
       <Container>
@@ -51,10 +55,10 @@ export default function AccountPage() {
               <CardContent className="p-6 text-center">
                 <Avatar className="h-20 w-20 mx-auto mb-4 bg-cyan-500">
                   <AvatarFallback className="text-black font-bold text-xl">
-                    {user.name.split(' ').map(n => n[0]).join('')}
+                    {initials}
                   </AvatarFallback>
                 </Avatar>
-                <h3 className="font-semibold text-white mb-1">{user.name}</h3>
+                <h3 className="font-semibold text-white mb-1">{user.name || 'User'}</h3>
                 <p className="text-sm text-gray-400">{user.email}</p>
                 <Badge className="mt-2 bg-cyan-500/20 text-cyan-400 border-cyan-500/50">
                   Crypto Pioneer
@@ -111,7 +115,7 @@ export default function AccountPage() {
               <Card className="border-gray-800 bg-gray-900/50">
                 <CardContent className="p-6 text-center">
                   <Calendar className="h-8 w-8 text-cyan-400 mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-white">Jan 2024</div>
+                  <div className="text-2xl font-bold text-white">{memberSince}</div>
                   <div className="text-sm text-gray-400">Member Since</div>
                 </CardContent>
               </Card>
@@ -152,7 +156,7 @@ export default function AccountPage() {
                           <div>
                             <div className="font-medium text-white">Order #{order.id}</div>
                             <div className="text-sm text-gray-400">
-                              {new Date(order.createdAt).toLocaleDateString()} • {order.items.length} items
+                              {new Date(order.created_at).toLocaleDateString()} • {order.items.length} items
                             </div>
                           </div>
                         </div>

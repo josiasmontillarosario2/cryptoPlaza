@@ -1,0 +1,646 @@
+{
+  "About": {
+    "hero": {
+      "badge": "Established 2021",
+      "titlePart1": "Empowering the",
+      "titlePart2": "Crypto Revolution",
+      "description": "We're not just a store – we're a movement. CryptoStore bridges the gap between cutting-edge blockchain technology and premium lifestyle products, creating the ultimate shopping experience for crypto enthusiasts worldwide."
+    },
+    "stats": {
+      "customers": "Happy Customers",
+      "cryptocurrencies": "Cryptocurrencies",
+      "countries": "Countries Served",
+      "support": "Support"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description1": "To democratize access to premium crypto-themed products while advancing the adoption of digital currencies as a legitimate payment method. We believe the future of commerce lies in decentralized, borderless transactions.",
+      "description2": "Every product we curate tells a story of innovation, rebellion against traditional finance, and the belief that technology can create a more inclusive financial future.",
+      "button": "Explore Products"
+    },
+    "missionCards": {
+      "innovationTitle": "Innovation First",
+      "innovationDesc": "Cutting-edge products that represent the future of technology",
+      "securityTitle": "Security",
+      "securityDesc": "Military-grade encryption protecting every transaction",
+      "globalTitle": "Global",
+      "globalDesc": "Serving crypto enthusiasts across 100+ countries",
+      "communityTitle": "Community",
+      "communityDesc": "Building the largest crypto lifestyle community"
+    },
+    "values": {
+      "title": "Our Values",
+      "transparencyTitle": "Transparency",
+      "transparencyDesc": "Like blockchain technology itself, we believe in complete transparency in our operations, pricing, and business practices.",
+      "excellenceTitle": "Excellence",
+      "excellenceDesc": "We source only the highest quality products that meet our rigorous standards for design, functionality, and innovation.",
+      "communityTitle": "Community",
+      "communityDesc": "We're more than customers and sellers – we're a family of crypto believers building the future together."
+    },
+    "team": {
+      "title": "Meet the Team",
+      "sarahName": "Sarah Kim",
+      "sarahRole": "Founder & CEO",
+      "sarahDesc": "Former blockchain engineer turned entrepreneur, passionate about making crypto accessible to everyone.",
+      "marcusName": "Marcus Rodriguez",
+      "marcusRole": "CTO",
+      "marcusDesc": "Security expert ensuring every transaction is safe and every customer's data is protected.",
+      "alexName": "Alex Liu",
+      "alexRole": "Head of Design",
+      "alexDesc": "Visionary designer creating products that bridge the gap between tech and lifestyle."
+    },
+    "cta": {
+      "titlePart1": "Join the",
+      "titlePart2": "revolution",
+      "description": "Be part of the crypto lifestyle movement. Shop with confidence, pay with crypto, and help build the decentralized future.",
+      "startShopping": "Start Shopping",
+      "contactUs": "Contact Us"
+    }
+  },
+  "Home": {
+    "hero": {
+      "badge": "🚀 Now accepting Bitcoin, Ethereum & more cryptocurrencies",
+      "title1": "Shop the Future",
+      "title2": "Pay with Crypto",
+      "description": "Experience the next generation of e-commerce with premium products, cutting-edge technology, and seamless cryptocurrency payments. Join thousands of crypto enthusiasts shopping securely.",
+      "buyWithCrypto": "Buy with Crypto Now",
+      "learnMore": "Learn More"
+    },
+    "features": {
+      "title": "Why Choose CryptoStore?",
+      "description": "Leading the revolution in crypto commerce with unmatched security and innovation",
+      "cryptoPayments": {
+        "title": "Crypto Payments",
+        "description": "Accept Bitcoin, Ethereum, and 50+ cryptocurrencies via Coinbase Commerce"
+      },
+      "secureTransactions": {
+        "title": "Secure Transactions",
+        "description": "Military-grade encryption and blockchain-verified transactions"
+      },
+      "fastShipping": {
+        "title": "Fast Shipping",
+        "description": "Free worldwide shipping on orders over $100"
+      },
+      "instantProcessing": {
+        "title": "Instant Processing",
+        "description": "Lightning-fast order processing and real-time confirmations"
+      }
+    },
+    "featuredProducts": {
+      "title": "Featured Products",
+      "description": "Discover our handpicked collection of premium crypto-themed merchandise and cutting-edge technology",
+      "viewAllProducts": "View All Products"
+    },
+    "cta": {
+      "title": "Ready to Join the Crypto Commerce Revolution?",
+      "description": "Start shopping with cryptocurrency today and experience the future of e-commerce. Secure, fast, and completely decentralized.",
+      "createAccount": "Create Account",
+      "startShopping": "Start Shopping"
+    }
+  },
+  "Contact": {
+    "hero": {
+      "badge": "24/7 Support",
+      "title": "Get in Touch",
+      "description": "Have questions about our products, payments, or need support? Our crypto-savvy team is here to help you 24/7."
+    },
+    "form": {
+      "title": "Send us a Message",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "subjectOptions": {
+        "order": "Order Support",
+        "product": "Product Question",
+        "payment": "Payment Issue",
+        "technical": "Technical Support",
+        "partnership": "Business Partnership",
+        "other": "Other"
+      },
+      "message": "Message",
+      "button": "Send Message",
+      "sending": "Sending...",
+      "successMessage": "Thank you! Your message has been sent. We'll get back to you within 24 hours.",
+      "responseTime": "We typically respond within 2-4 hours during business hours"
+    },
+    "quickContact": {
+      "title": "Quick Contact",
+      "email": "Email",
+      "emailValue": "support@cryptostore.com",
+      "liveChat": "Live Chat",
+      "liveChatValue": "Available 24/7",
+      "whatsapp": "WhatsApp",
+      "whatsappValue": "+1 (555) CRYPTO-1"
+    },
+    "office": {
+      "title": "Office Information",
+      "address": "Address",
+      "addressValue": "123 Blockchain Avenue Crypto District, CD 12345 Decentraland",
+      "hours": "Business Hours",
+      "mondayFriday": "Monday - Friday: 9:00 AM - 6:00 PM PST",
+      "saturday": "Saturday: 10:00 AM - 4:00 PM PST",
+      "sunday": "Sunday: Closed",
+      "supportNote": "* Support available 24/7 via email & chat"
+    },
+    "promise": {
+      "title": "Our Promise",
+      "response": "Response within 2 hours",
+      "secure": "Secure & confidential support",
+      "expert": "Crypto-expert support team"
+    }
+  },
+  "Privacy": {
+    "header": {
+      "badge": "Last Updated: January 2024",
+      "title": "Privacy Policy",
+      "description": "Your privacy is our priority. This policy explains how we collect, use, and protect your information when you use CryptoStore."
+    },
+    "collect": {
+      "title": "Information We Collect",
+      "intro": "We collect information to provide better services to our users. Here's what we collect:",
+      "personal": {
+        "title": "Personal Information",
+        "list": [
+          "Name and email address when you create an account",
+          "Shipping address for order fulfillment",
+          "Payment information (processed securely through Coinbase Commerce)",
+          "Communication preferences and customer service interactions"
+        ]
+      },
+      "automatic": {
+        "title": "Automatic Information",
+        "list": [
+          "Device information (browser, operating system, IP address)",
+          "Usage data (pages visited, time spent, interactions)",
+          "Cookie data for personalization and security",
+          "Transaction data for order processing and security"
+        ]
+      },
+      "crypto": {
+        "title": "Cryptocurrency Information",
+        "list": [
+          "Wallet addresses for transaction verification (anonymized)",
+          "Transaction hashes for order tracking",
+          "Payment confirmation data from blockchain networks"
+        ]
+      }
+    },
+    "use": {
+      "title": "How We Use Your Information",
+      "intro": "We use the information we collect for the following purposes:",
+      "service": {
+        "title": "Service Provision",
+        "list": [
+          "Process orders and manage your account",
+          "Facilitate cryptocurrency payments",
+          "Provide customer support and resolve issues",
+          "Send order confirmations and shipping updates"
+        ]
+      },
+      "improvement": {
+        "title": "Improvement and Analytics",
+        "list": [
+          "Analyze website usage to improve user experience",
+          "Develop new features and products",
+          "Conduct security monitoring and fraud prevention",
+          "Optimize payment processing and delivery"
+        ]
+      },
+      "communication": {
+        "title": "Communication (With Consent)",
+        "list": [
+          "Send promotional emails about new products",
+          "Share crypto market insights and educational content",
+          "Notify about special offers and events",
+          "Provide important service updates"
+        ]
+      }
+    },
+    "protection": {
+      "title": "Data Protection & Security",
+      "intro": "We implement industry-leading security measures to protect your data:",
+      "technical": {
+        "title": "Technical Safeguards",
+        "list": [
+          "End-to-end encryption for all sensitive data",
+          "Secure Socket Layer (SSL) encryption for all communications",
+          "Regular security audits and penetration testing",
+          "Multi-factor authentication for account access"
+        ]
+      },
+      "operational": {
+        "title": "Operational Security",
+        "list": [
+          "Limited access to personal data on a need-to-know basis",
+          "Regular employee training on data protection",
+          "Secure data centers with physical access controls",
+          "Automated backup and disaster recovery systems"
+        ]
+      },
+      "payment": {
+        "title": "Payment Security",
+        "list": [
+          "We never store cryptocurrency private keys",
+          "Payment processing handled by Coinbase Commerce",
+          "PCI DSS compliance for traditional payment methods",
+          "Real-time fraud detection and prevention"
+        ]
+      }
+    },
+    "rights": {
+      "title": "Your Rights & Choices",
+      "intro": "You have several rights regarding your personal information:",
+      "access": {
+        "title": "Access & Control",
+        "list": [
+          "View and download your data",
+          "Update your account information",
+          "Delete your account",
+          "Opt-out of marketing communications"
+        ]
+      },
+      "settings": {
+        "title": "Privacy Settings",
+        "list": [
+          "Manage cookie preferences",
+          "Control data sharing",
+          "Set communication preferences",
+          "Request data portability"
+        ]
+      },
+      "help": "Need Help? Contact our privacy team at privacy@cryptostore.com for any questions about your data rights or to exercise these rights."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "intro": "If you have questions about this Privacy Policy or our data practices, please contact us:",
+      "email": "Email",
+      "emailValue": "privacy@cryptostore.com",
+      "address": "Address",
+      "addressValue": "CryptoStore Privacy Team 123 Blockchain Avenue Crypto District, CD 12345 Decentraland",
+      "responseTime": "Response Time",
+      "responseValue": "We respond to privacy inquiries within 48 hours.",
+      "dpo": "Data Protection Officer",
+      "dpoValue": "dpo@cryptostore.com",
+      "updateNote": "This Privacy Policy may be updated from time to time. We will notify you of any material changes by posting the new policy on our website and updating the \"Last Updated\" date above."
+    }
+  },
+  "Refunds": {
+    "header": {
+      "badge": "Last Updated: January 2024",
+      "title": "Refund Policy",
+      "description": "Our refund policy is designed to protect both our customers and our business. Please read carefully before making a purchase."
+    },
+    "eligibility": {
+      "title": "Eligibility for Refunds",
+      "intro": "Refunds are available under the following conditions:",
+      "list": [
+        "Returns within 30 days of delivery for unused items in original packaging",
+        "Defective or damaged products upon receipt",
+        "Incorrect items shipped",
+        "Overpayments or duplicate charges",
+        "Cancelled orders before shipment"
+      ]
+    },
+    "process": {
+      "title": "Refund Process",
+      "intro": "How we handle refunds:",
+      "list": [
+        "Contact support@cryptostore.com with your order number and reason",
+        "We review requests within 2-3 business days",
+        "Approved refunds processed within 5-10 business days",
+        "Return shipping costs are customer's responsibility unless item is defective",
+        "Restocking fee of 10% may apply for non-defective returns"
+      ]
+    },
+    "crypto": {
+      "title": "Cryptocurrency Refunds",
+      "intro": "Special considerations for crypto payments:",
+      "list": [
+        "Refunds issued in the same cryptocurrency as original payment",
+        "Amount based on original USD value to account for volatility",
+        "Network fees deducted from refund amount",
+        "Transactions are irreversible - no refunds for completed blockchain transfers to wrong addresses",
+        "Exchange rate locked at time of refund processing"
+      ],
+      "warning": "Warning: Cryptocurrency transactions are irreversible. Double-check wallet addresses before sending."
+    },
+    "limitations": {
+      "title": "Limitations and Exclusions",
+      "list": [
+        "No refunds for digital products or custom items",
+        "No refunds for cryptocurrency price fluctuations",
+        "No refunds for used or opened items (except defects)",
+        "We reserve the right to deny refund requests",
+        "Refunds may be issued as store credit at our discretion"
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "intro": "For refund requests or questions:",
+      "email": "support@cryptostore.com",
+      "response": "We respond to refund inquiries within 48 hours."
+    }
+  },
+  "Terms": {
+    "header": {
+      "badge": "Effective: January 1, 2024",
+      "title": "Terms of Service",
+      "description": "Please read these terms carefully before using CryptoStore. By using our service, you agree to be bound by these terms."
+    },
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "intro1": "By accessing and using CryptoStore (\"the Service\"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.",
+      "intro2": "These Terms of Service (\"Terms\") govern your use of our website located at cryptostore.com (the \"Service\") operated by CryptoStore (\"us\", \"we\", or \"our\").",
+      "important": "Important: These terms include provisions that limit our liability and require individual arbitration for disputes. Please read them carefully."
+    },
+    "use": {
+      "title": "Use of Service",
+      "permitted": {
+        "title": "Permitted Use",
+        "list": [
+          "Browse and purchase products for personal, non-commercial use",
+          "Create an account to track orders and manage preferences",
+          "Use our customer support services",
+          "Share product reviews and feedback"
+        ]
+      },
+      "prohibited": {
+        "title": "Prohibited Activities",
+        "list": [
+          "Use the service for any illegal or unauthorized purpose",
+          "Attempt to gain unauthorized access to our systems",
+          "Interfere with or disrupt the service or servers",
+          "Use automated tools to access the service (except search engine crawlers)",
+          "Reproduce, duplicate, or resell any part of our service",
+          "Use the service to transmit viruses, malware, or harmful code"
+        ]
+      },
+      "age": "Age Requirements",
+      "ageText": "You must be at least 18 years old to use this service. By using CryptoStore, you confirm that you are 18+ or have parental consent."
+    },
+    "payments": {
+      "title": "Cryptocurrency Payments",
+      "processing": {
+        "title": "Payment Processing",
+        "list": [
+          "Cryptocurrency payments are processed through Coinbase Commerce",
+          "We accept Bitcoin, Ethereum, and 13+ other major cryptocurrencies",
+          "All transactions are final once confirmed on the blockchain",
+          "Network fees are separate from product prices and non-refundable"
+        ]
+      },
+      "terms": {
+        "title": "Price and Payment Terms",
+        "list": [
+          "Prices are displayed in USD and converted to cryptocurrency at checkout",
+          "Exchange rates are locked in for 15 minutes during checkout",
+          "Incomplete payments may be cancelled after 24 hours",
+          "Overpayments will be refunded minus network fees"
+        ]
+      },
+      "risks": "Transaction Risks",
+      "warning": "Warning: Cryptocurrency transactions are irreversible. Double-check wallet addresses and amounts before sending payment. We cannot recover funds sent to incorrect addresses."
+    },
+    "orders": {
+      "title": "Orders & Shipping",
+      "processing": {
+        "title": "Order Processing",
+        "list": [
+          "Orders are processed within 1-2 business days after payment confirmation",
+          "We reserve the right to cancel orders due to product unavailability",
+          "Order confirmation emails are sent to the address provided",
+          "Bulk orders may require additional verification"
+        ]
+      },
+      "shipping": {
+        "title": "Shipping",
+        "list": [
+          "Free worldwide shipping on orders over $100",
+          "Standard shipping: 5-10 business days",
+          "Express shipping: 2-3 business days (additional fee)",
+          "Tracking information provided via email",
+          "Customers are responsible for import duties and taxes"
+        ]
+      },
+      "delivery": {
+        "title": "Delivery",
+        "list": [
+          "Risk of loss passes to buyer upon delivery to carrier",
+          "You must provide accurate shipping information",
+          "Delivery delays due to customs are beyond our control",
+          "Undeliverable packages may incur additional fees"
+        ]
+      }
+    },
+    "returns": {
+      "title": "Returns & Refunds",
+      "policy": {
+        "title": "Return Policy",
+        "list": [
+          "30-day return window from delivery date",
+          "Items must be unused and in original packaging",
+          "Return shipping costs are buyer's responsibility",
+          "Some items may be non-returnable (custom products, intimate items)"
+        ]
+      },
+      "process": {
+        "title": "Refund Process",
+        "list": [
+          "Refunds processed within 5-10 business days after return receipt",
+          "Cryptocurrency refunds subject to current exchange rates",
+          "Network fees are deducted from refund amounts",
+          "Store credit may be offered as an alternative"
+        ]
+      }
+    },
+    "liability": {
+      "title": "Liability & Disclaimers",
+      "availability": "Service Availability",
+      "availabilityText": "We strive to provide uninterrupted service but cannot guarantee 100% uptime. We may temporarily suspend service for maintenance, updates, or unforeseen circumstances.",
+      "limitation": "Limitation of Liability",
+      "limitationText": "In no event shall CryptoStore be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses.",
+      "cryptoRisks": "Cryptocurrency Risks",
+      "warning": "Important: Cryptocurrency prices are volatile. We are not responsible for market fluctuations, network congestion, or technical issues with blockchain networks."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "intro": "If you have any questions about these Terms of Service, please contact us:",
+      "email": "Email",
+      "emailValue": "legal@cryptostore.com",
+      "address": "Address",
+      "addressValue": "CryptoStore Legal Team 123 Blockchain Avenue Crypto District, CD 12345 Decentraland",
+      "phone": "Phone",
+      "phoneValue": "+1 (555) CRYPTO-1",
+      "hours": "Business Hours",
+      "hoursValue": "Monday - Friday: 9:00 AM - 6:00 PM PST",
+      "updateNote": "These Terms of Service may be updated from time to time. Continued use of the service after changes constitutes acceptance of new terms."
+    }
+  },
+  "Shop": {
+    "header": {
+      "title": "Shop Collection",
+      "description": "Discover our complete range of crypto-themed products and cutting-edge technology"
+    },
+    "searchPlaceholder": "Search products...",
+    "category": "Category",
+    "categories": {
+      "all": "All Categories",
+      "clothes": "Clothing",
+      "accessories": "Accessories",
+      "tech": "Technology"
+    },
+    "searchButton": "Search",
+    "sort": "Sort by",
+    "sortOptions": {
+      "default": "Default",
+      "priceLow": "Price: Low to High",
+      "priceHigh": "Price: High to Low",
+      "name": "Name A-Z"
+    },
+    "activeFilters": "Active filters:",
+    "categoryLabel": "Category:",
+    "searchLabel": "Search:",
+    "clearAll": "Clear all",
+    "showing": "Showing {count} of {total} products",
+    "noProducts": "No products found",
+    "noProductsDescription": "Try adjusting your search or filter criteria",
+    "showAll": "Show All Products",
+    "ProductCard": {
+      "noImage": "No Image",
+      "priceLabel": "PRICE",
+      "addToCart": "Add to Cart",
+      "inStock": "In Stock",
+      "outOfStock": "Out of Stock"
+    }
+  },
+  "Header": {
+    "shop": "Shop",
+    "about": "About",
+    "contact": "Contact",
+    "cartTitle": "Your Cart",
+    "login": "Login",
+    "logout": "Logout",
+    "MobileNav": {
+      "home": "Home",
+      "shop": "Shop",
+      "search": "Search",
+      "wishlist": "Wishlist",
+      "account": "Account"
+    }
+  },
+  "Footer": {
+    "brandDescription": "The future of shopping is here. Buy premium crypto-themed gear with your favorite digital currencies.",
+    "shop": "Shop",
+    "clothes": "Clothes",
+    "accessories": "Accessories",
+    "technology": "Technology",
+    "shoppingCart": "Shopping Cart",
+    "account": "Account",
+    "login": "Login",
+    "myAccount": "My Account",
+    "orderHistory": "Order History",
+    "support": "Support",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "refundPolicy": "Refund Policy",
+    "aboutUs": "About Us",
+    "copyright": "© 2024 CryptoStore. All rights reserved. Powered by blockchain technology."
+  },
+  "CartPage": {
+    "empty": {
+      "title": "Your cart is empty",
+      "description": "Looks like you haven't added any crypto gear to your cart yet.",
+      "continueShopping": "Continue Shopping"
+    },
+    "title": "Shopping Cart",
+    "itemCount": "{count} {count, plural, one {item} other {items}} in your cart",
+    "orderSummary": {
+      "title": "Order Summary",
+      "subtotal": "Subtotal ({count} items)",
+      "shipping": "Shipping",
+      "shippingFree": "Free",
+      "tax": "Tax",
+      "total": "Total",
+      "cryptoEstimate": "≈ {amount} BTC"
+    },
+    "freeShippingPrompt": "Add ${amount} more for free shipping!",
+    "proceedToCheckout": "Proceed to Checkout",
+    "continueShopping": "Continue Shopping",
+    "cryptoPayment": {
+      "title": "Crypto Payment",
+      "description": "Pay with 15+ cryptocurrencies via Coinbase Commerce",
+      "currencies": {
+        "BTC": "BTC",
+        "ETH": "ETH",
+        "USDC": "USDC"
+      }
+    },
+    "each": "each"
+  },
+  "CartSheet": {
+    "empty": {
+      "title": "Your cart is empty",
+      "description": "Add some crypto gear to get started!",
+      "browseProducts": "Browse Products"
+    },
+    "title": "Shopping Cart",
+    "itemCount": "{count} items",
+    "description": "Review your crypto gear before checkout",
+    "viewCart": "View Cart",
+    "checkout": "Checkout",
+    "cryptoPayment": "Pay with Bitcoin, Ethereum, or other cryptos"
+  },
+  "CheckoutPage": {
+    "empty": {
+      "title": "Your cart is empty",
+      "continueShopping": "Continue Shopping"
+    },
+    "title": "Checkout",
+    "description": "Complete your order and pay with MATIC on Polygon",
+    "backToCart": "Back to Cart",
+    "billing": {
+      "title": "Billing Information",
+      "email": "Email Address *",
+      "emailPlaceholder": "your@email.com",
+      "firstName": "First Name *",
+      "lastName": "Last Name *",
+      "address": "Address *",
+      "addressPlaceholder": "123 Crypto Street",
+      "city": "City *",
+      "zipCode": "ZIP Code *",
+      "country": "Country *",
+      "countryPlaceholder": "Select country",
+      "countries": {
+        "us": "United States",
+        "ca": "Canada",
+        "uk": "United Kingdom",
+        "de": "Germany",
+        "fr": "France",
+        "jp": "Japan",
+        "au": "Australia"
+      },
+      "newsletter": "Subscribe to our newsletter for exclusive crypto deals"
+    },
+    "payment": {
+      "title": "Payment Method",
+      "description": "You will be redirected to NOWPayments to complete your payment securely with MATIC on Polygon.",
+      "secureLabel": "Secure and fast on Polygon"
+    },
+    "orderSummary": {
+      "title": "Order Summary",
+      "subtotal": "Subtotal",
+      "shipping": "Shipping",
+      "shippingFree": "Free",
+      "tax": "Tax",
+      "total": "Total",
+      "quantity": "Qty: {quantity}"
+    },
+    "payButton": "Pay {amount} with MATIC",
+    "processing": "Processing...",
+    "secure": "Secure",
+    "freeShipping": "Free Shipping",
+    "invalidItemsError": "Some items in your cart are invalid. Please check your cart."
+  }
+}

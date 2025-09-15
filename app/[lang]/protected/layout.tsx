@@ -1,6 +1,4 @@
 
-import { AuthButton } from "@/components/auth/auth-button";
-import Link from "next/link";
 
 export default function ProtectedLayout({
   children,

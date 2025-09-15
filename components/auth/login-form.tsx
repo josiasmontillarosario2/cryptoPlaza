@@ -39,7 +39,7 @@ export function LoginForm({
       if (result?.error) {
         setError(result.error);
       } else {
-        router.push("/protected"); // Cambia a tu ruta post-login
+        router.push("/"); // Cambia a tu ruta post-login
         router.refresh(); // Sincroniza server components como Navbar
       }
     });

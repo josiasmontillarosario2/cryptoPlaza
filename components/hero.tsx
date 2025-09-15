@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Zap, Shield, Truck, CreditCard } from 'lucide-react';
+import { ArrowRight} from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { getTranslations } from 'next-intl/server'; // Import for server-side translations
 

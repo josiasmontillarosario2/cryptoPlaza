@@ -1,5 +1,3 @@
-import { Geist } from "next/font/google";
-import { ThemeProvider } from "next-themes";
 import "../globals.css";
 import { metadata } from "../metadata";
 import { geistSans } from "@/components/fonts";
@@ -7,7 +5,6 @@ import Navbar from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { Suspense } from "react";
 import { NavbarSkeleton } from "@/components/Skeletons/NavbarSkeleton";
-import { Loader2 } from "lucide-react";
 import { HomeSkeleton } from "@/components/Skeletons/HomeSkeleton";
 //import NavMobile from "@/components/NavMobile";
 import { hasLocale, NextIntlClientProvider } from "next-intl";

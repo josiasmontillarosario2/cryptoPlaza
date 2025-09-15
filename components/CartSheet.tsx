@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Separator } from '@/components/ui/separator';
 import { Badge } from '@/components/ui/badge';
 import { SheetHeader, SheetTitle, SheetDescription } from '@/components/ui/sheet';
 import { Minus, Plus, Trash2, ShoppingBag } from 'lucide-react';

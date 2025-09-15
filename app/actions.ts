@@ -38,7 +38,7 @@ export async function signup(prevState: any, formData: FormData) {
     email,
     password,
     options: {
-      emailRedirectTo: `${origin}/protected`,
+      emailRedirectTo: `${origin}/`,
     },
   });
 

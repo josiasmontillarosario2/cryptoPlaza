@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "marketplace crypto",
     "cripto ecommerce",
   ],
-  authors: [{ name: "CryptoPlaza Team", url: "https://cryptoplaza.com" }],
+  authors: [{ name: "CryptoPlaza Team", url: "https://cryptoplaza.store" }],
   openGraph: {
     title: "CryptoPlaza | Tu Amazon en Criptomonedas",
     description: "Compra todo lo que imaginas y págalo con crypto.",

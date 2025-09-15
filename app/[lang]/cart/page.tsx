@@ -1,6 +1,5 @@
 'use client';
 
-import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Container } from '@/components/ui/container';
@@ -15,7 +14,7 @@ import { useTranslations } from 'next-intl';
 export default function CartPage() {
   const t = useTranslations('CartPage');
   const tc = useTranslations('Shop.categories');
-  const { items, updateQuantity, removeFromCart, getTotalItems, getTotalPrice } = useCart();
+  const { items, updateQuantity, getTotalItems, getTotalPrice } = useCart();
 
   const subtotal = getTotalPrice();
   const shipping = subtotal > 100 ? 0 : 15; // Free shipping over $100

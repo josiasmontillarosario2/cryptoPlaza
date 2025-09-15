@@ -1,4 +1,3 @@
-import { AuthButton } from '@/components/auth/auth-button';
 import { Hero } from '@/components/hero';
 import { getFeaturedProducts } from '@/lib/data';
 import ProductCard from '@/components/ProductCard';

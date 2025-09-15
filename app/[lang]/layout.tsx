@@ -10,6 +10,7 @@ import { HomeSkeleton } from "@/components/Skeletons/HomeSkeleton";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/app/i18n/routing"; // Adjust path if needed
+import { Analytics } from "@vercel/analytics/next"
 
 type Props = {
   children: React.ReactNode;
@@ -50,6 +51,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             <Footer />
           </div>
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );
